@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Foodie",
+    "slug": "foodie-recipe-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FAF7F2"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Foodie requires access to your photo library to select pictures for your custom recipes."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FAF7F2"
+      },
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_MEDIA_IMAGES"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share food creations."
+        }
+      ]
+    ]
+  }
+}

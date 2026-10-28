@@ -1,0 +1,6 @@
+{
+  "name": "Foodie - Recipe App",
+  "description": "A polished mobile recipe application built for Expo Snack & Expo Go featuring categories, favorites, custom recipe creation, editing, and step-by-step cooking instructions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
